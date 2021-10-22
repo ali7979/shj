@@ -9,6 +9,7 @@ import BeforeFooter from './BeforeFooter';
 import { useDispatch, useSelector } from 'react-redux';
 import { commentVideo } from '../Actions/VideoActions';
 import Comment from './Comment'
+import AvatarList from './AvatarList';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 export default function VidsComponent({videos=[{}]}) {
     const dispatch = useDispatch()
@@ -57,110 +58,46 @@ export default function VidsComponent({videos=[{}]}) {
         <div className="vids">
 
 <div className="before-footer">
-                 <BeforeFooter title="Trending">
-              <table>
-                <tr>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                </tr>
-            </table>
-            </BeforeFooter>
-                
-                 <BeforeFooter title="Discover">
-            <table>
-            <tr>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                    <td>
-                        User
-                    </td>
-                </tr>
-            </table>
-            </BeforeFooter>
+                 <div className="hhead"><h1>Trending Videos <i class="fas fa-fire"></i></h1>
+                 <div className="hlst">
+                            <div className="hpeople">
+                                <img  className="hpeopleimg" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" /><span className="names">Short Movies   <p>Tracy</p>   <i class="far fa-eye">  25000</i></span>
+                            </div>
+                            <div className="hpeople">  <img className="hpeopleimg"  src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" /><span className="names"> Dance Moves  <p>Jasper Class</p> <i class="far fa-eye"> 24000</i></span>
+                            </div>
+                            <div className="hpeople">   <img className="hpeopleimg"  src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" /><span className="names">Sad Song <p>William Ford</p> <i class="far fa-eye"> 20000</i></span>
+                            </div>
+                            <div className="hpeople">    <img className="hpeopleimg"  src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" /><span className="names">Ballet <p>Dance Group</p> <i class="far fa-eye">19000</i></span>
+                            </div>
+                        </div>
             </div>
-            <div style={{display:"flex", flexDirection:"column"}}>
+            <div className="seall">
+            <a href="#">See All <i class="fas fa-angle-double-right"></i></a>
+            </div>
+                
+            <div className="hhead"><h1>Discover Channels <i class="far fa-compass"></i></h1></div>
+          
+  <AvatarList/>
+  <AvatarList/>
+  <AvatarList/>
+  <div className="seall">
+            <a href="#">See All <i class="fas fa-angle-double-right"></i></a>
+            </div>
+
+
+  
+
+
+
+
+            </div>
+
+
+            <div className="display">
+                <div className="frs">
+            <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" />
+                    
+                    <span className="posttt">Tracy<br/><p style={{fontSize:"9px" , color:"white",marginTop:"-0rem"}}>Short Movie</p></span></div>
             <Swiper
                 spaceBetween={20}
                 slidesPerView="auto"
@@ -196,7 +133,7 @@ export default function VidsComponent({videos=[{}]}) {
                 </div>
                 </div>
 
-            </div>
+            </div>*/
              <div className="comments">
                 <h1><i className="fa fa-comment fa-2x"></i></h1>
                 <div className="all-comments">

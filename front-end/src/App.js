@@ -6,20 +6,27 @@ import Header from './Components/Header'
 import UploadVideoScreen from './screens/UploadVideoScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import Dashboard from './screens/Dashboard';
-
+import dshbrd from './screens/dshbrd';
+import hmepg from './screens/hmepg';
+import Signup from './Components/Signup';
+import sigup from './screens/signup';
 
 function App() {
   return ( 
   <BrowserRouter>
     <div className="container">
-    <header>
+    {/* <header>
       <Header/>
-    </header>
+    </header> */}
     <main>
     <Switch>
-        <Route path="/post" exact component={HomeScreen} />
+        <Route path="/post" exact component={hmepg} />
+        <Route path="/login" exact component={Login} />
+        <Route path="/hme" exact component={hmepg} />
         <Route path="/" exact component={UploadVideoScreen}/>
         <Route path="/dash" exact component={Dashboard}/>
+        <Route path="/dsh" exact component={dshbrd}/>
+        <Route path="/signup" exact component={sigup}/>
         <Route path="/profile/:email" exact component={ProfileScreen}/>
     </Switch>
     </main>
