@@ -1565,11 +1565,12 @@ footer a{
     background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
 }
 input[type='radio']:after {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 10px;
-    margin: 1.3rem 0;
+    
     position: absolute;
+    left: 70px;
     background-color: #d1d3d1;
     content: '';
     display: inline-block;
@@ -1577,8 +1578,8 @@ input[type='radio']:after {
     border: 2px solid white;
 }
 input[type='radio']:checked:after {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 10px;
    
     position: relative;
