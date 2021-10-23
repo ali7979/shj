@@ -1,5 +1,32 @@
 import hmep from"../css/hmep.css"
-import Full_transparent from "../images/Full_transparent.png"
+import Fulltransparent from "../images/Full_transparent.png"
+import Ellipse_4 from "../images/Ellipse_4.png"
+import Ellipse_3 from "../images/Ellipse_3.png"
+import Ellipse_6 from "../images/Ellipse_6.png"
+import Ellipse_6_ch from "../images/Ellipse_6.png"
+import Ellipse_7 from "../images/Ellipse_7.png"
+import Ellipse_8 from "../images/Ellipse_8.png"
+import Ellipse_9 from "../images/Ellipse_9.png"
+import Ellipse_10 from "../images/Ellipse_10.png"
+
+
+
+
+import Rectangle_5 from "../images/Rectangle_5.png"
+import Rectangle_45 from "../images/Rectangle_45.png"
+import Rectangle_45_dk from "../images/Rectangle_45_dk.png"
+import Rectangle_45_ds from "../images/Rectangle_45_ds.png"
+import Rectangle_45_d from "../images/Rectangle_45_d.png"
+import Rectangle_45_ea from "../images/Rectangle_45_ea.png"
+
+
+import Ellipse_2 from "../images/Ellipse_2.png"
+
+
+
+
+
+
 import { Link } from "react-router-dom"
 export default function hmepg() {
 
@@ -12,7 +39,7 @@ export default function hmepg() {
 		<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
 		</rect>
 	</svg>
-	<img id="Full_transparent" src={{Full_transparent}} srcset="Full_transparent.png 1x, Full_transparent@2x.png 2x"/>
+	<img id="Full_transparent" src={Fulltransparent} />
 		
 	<div id="Group_1">
 		<svg class="Line_2" viewBox="0 0 33 5">
@@ -77,7 +104,7 @@ export default function hmepg() {
 		<div id="Write_your_comment">
 			<input className="ct" placeholder="Write your comment..."/>
 		</div>
-		<img id="Ellipse_4" src="Ellipse_4.png" srcset="Ellipse_4.png 1x, Ellipse_4@2x.png 2x"/>
+		<img id="Ellipse_4" src={Ellipse_4} />
 			
 	</div>
 	<div id="Group_38">
@@ -94,7 +121,7 @@ export default function hmepg() {
 		<div id="Lorem_ipsum_dolor_sit_amet_con">
 			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</span>
 		</div>
-		<img id="Ellipse_2" src="Ellipse_2.png" srcset="Ellipse_2.png 1x, Ellipse_2@2x.png 2x"/>
+		<img id="Ellipse_2" src={Ellipse_2} />
 			
 	</div>
 	<div id="Group_43">
@@ -106,7 +133,7 @@ export default function hmepg() {
 				<span>Short Movie</span>
 			</div>
 		</div>
-		<img id="Ellipse_3" src="Ellipse_3.png" srcset="Ellipse_3.png 1x, Ellipse_3@2x.png 2x"/>
+		<img id="Ellipse_3" src={Ellipse_3} />
 			
 	</div>
 	<div id="Group_21">
@@ -139,7 +166,7 @@ export default function hmepg() {
 				<path id="ic_chevron_right_24px_bp" d="M 7.052865982055664 0 L 0 7.052865982055664 L 22.90931129455566 30.01220703125 L 0 52.97153854370117 L 7.052865982055664 60.0244026184082 L 37.0650749206543 30.01220703125 L 7.052865982055664 0 Z">
 				</path>
 			</svg>
-			<img id="Rectangle_5" src="Rectangle_5.png" srcset="Rectangle_5.png 1x, Rectangle_5@2x.png 2x"/>
+			<img id="Rectangle_5"src={Rectangle_5} />
 				
 		</div>
 		<div id="Group_48">
@@ -199,17 +226,17 @@ export default function hmepg() {
 			</svg>
 		</div>
 		<div id="Group_46">
-			<img id="Ellipse_6" src="Ellipse_6.png" srcset="Ellipse_6.png 1x, Ellipse_6@2x.png 2x"/>
+			<img id="dEllipse_6" src={Ellipse_6.png}/>
 				
-			<img id="Ellipse_7" src="Ellipse_7.png" srcset="Ellipse_7.png 1x, Ellipse_7@2x.png 2x"/>
+			<img id="dEllipse_7" src={Ellipse_7.png}/>
 				
-			<img id="Ellipse_8" src="Ellipse_8.png" srcset="Ellipse_8.png 1x, Ellipse_8@2x.png 2x"/>
+			<img id="dEllipse_8" src={Ellipse_8.png}/>
 				
-			<img id="Ellipse_9" src="Ellipse_9.png" srcset="Ellipse_9.png 1x, Ellipse_9@2x.png 2x"/>
+			<img id="dEllipse_9" src={Ellipse_9.png}/>
 				
-			<img id="Ellipse_10" src="Ellipse_10.png" srcset="Ellipse_10.png 1x, Ellipse_10@2x.png 2x"/>
+			<img id="dEllipse_10" src={Ellipse_10.png}/>
 				
-			<img id="Ellipse_6_ch" src="Ellipse_6_ch.png" srcset="Ellipse_6_ch.png 1x, Ellipse_6_ch@2x.png 2x"/>
+			<img id="Ellipse_6_ch" src={Ellipse_6_ch} srcset="Ellipse_6_ch.png 1x, Ellipse_6_ch@2x.png 2x"/>
 				
 			<img id="Ellipse_7_ci" src="Ellipse_7_ci.png" srcset="Ellipse_7_ci.png 1x, Ellipse_7_ci@2x.png 2x"/>
 				
@@ -290,7 +317,7 @@ export default function hmepg() {
 				</svg>
 			</div>
 			<div id="Group_96">
-				<img id="Rectangle_45" src="Rectangle_45.png" srcset="Rectangle_45.png 1x, Rectangle_45@2x.png 2x"/>
+				<img id="Rectangle_45" src={Rectangle_45} />
 					
 				<svg class="Polygon_1" viewBox="0 0 9 8">
 					<path id="Polygon_1" d="M 4.500000476837158 0 L 9.000000953674316 8 L 0 8 Z">
@@ -312,7 +339,7 @@ export default function hmepg() {
 			</svg>
 			<div id="Group_99">
 				<div id="Group_95">
-					<img id="Rectangle_45_dk" src="Rectangle_45_dk.png" srcset="Rectangle_45_dk.png 1x, Rectangle_45_dk@2x.png 2x"/>
+					<img id="Rectangle_45_dk" src={Rectangle_45_dk}/>
 						
 					<svg class="Polygon_1_dl" viewBox="0 0 9 8">
 						<path id="Polygon_1_dl" d="M 4.500000476837158 0 L 9.000000953674316 8 L 0 8 Z">
@@ -335,7 +362,7 @@ export default function hmepg() {
 			</div>
 			<div id="Group_100">
 				<div id="Group_95_dr">
-					<img id="Rectangle_45_ds" src="Rectangle_45_ds.png" srcset="Rectangle_45_ds.png 1x, Rectangle_45_ds@2x.png 2x"/>
+					<img id="Rectangle_45_ds" src={Rectangle_45_ds}/>
 						
 					<svg class="Polygon_1_dt" viewBox="0 0 9 8">
 						<path id="Polygon_1_dt" d="M 4.500000476837158 0 L 9.000000953674316 8 L 0 8 Z">
@@ -358,7 +385,7 @@ export default function hmepg() {
 			</div>
 			<div id="Group_97">
 				<div id="Group_94">
-					<img id="Rectangle_45_d" src="Rectangle_45_d.png" srcset="Rectangle_45_d.png 1x, Rectangle_45_d@2x.png 2x"/>
+					<img id="Rectangle_45_d" src={Rectangle_45_d}/>
 						
 					<svg class="Polygon_1_d" viewBox="0 0 9 8">
 						<path id="Polygon_1_d" d="M 4.500000476837158 0 L 9.000000953674316 8 L 0 8 Z">
@@ -381,7 +408,7 @@ export default function hmepg() {
 			</div>
 			<div id="Group_98">
 				<div id="Group_81">
-					<img id="Rectangle_45_ea" src="Rectangle_45_ea.png" srcset="Rectangle_45_ea.png 1x, Rectangle_45_ea@2x.png 2x"/>
+					<img id="Rectangle_45_ea" src={Rectangle_45_ea} />
 						
 					<svg class="Polygon_1_ea" viewBox="0 0 9 8">
 						<path id="Polygon_1_ea" d="M 4.500000476837158 0 L 9.000000953674316 8 L 0 8 Z">
