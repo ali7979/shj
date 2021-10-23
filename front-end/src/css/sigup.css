@@ -294,6 +294,22 @@
 	font-size: 15px;
 	color: rgba(112,112,112,1);
 }
+
+#By_continuing_you_agree_to_13k {
+	left: 673px;
+	top: 860px;
+	position: absolute;
+	overflow: visible;
+	width: 491px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Metropolis;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+
 #Ellipse_4 {
 	position: absolute;
 	width: 60px;
