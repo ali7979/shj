@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import sigup from "../css/sigup.css"
+import Full_transparent_fz from "../images/Full_transparent_fz.png"
 
 export default function signup() {
     return (
@@ -48,7 +49,7 @@ export default function signup() {
 			<path id="Line_10" d="M 0 0 L 654.9407348632812 0">
 			</path>
 		</svg>
-		<img id="Full_transparent_fz" src="Full_transparent_fz.png" srcset="Full_transparent_fz.png 1x, Full_transparent_fz@2x.png 2x"/>
+		<img id="Full_transparent_fz" src={Full_transparent_fz} />
 			
 		<div id="Group_51">
 			<svg class="Path_4" viewBox="295 262 16.031 16.031">
