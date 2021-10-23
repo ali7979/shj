@@ -1,6 +1,25 @@
 import { Link } from "react-router-dom"
 import dsh from "../css/dsh.css"
 import rectt from "./Rect.png"
+import Rectangle_54 from "../images/Rectangle_54.png"
+import Rectangle_55 from "../images/Rectangle_55.png"
+import Rectangle_45 from "../images/Rectangle_45.png"
+
+import Rectangle_56 from "../images/Rectangle_56.png"
+import Rectangle_57 from "../images/Rectangle_57.png"
+import Full_transparent from "../images/Full_transparent.png"
+import Ellipse_7 from "../images/Ellipse_7.png"
+import Ellipse_7_eb from "../images/Ellipse_7_eb.png"
+import Ellipse_8_ec from "../images/Ellipse_8_ec.png"
+import Ellipse_11 from "../images/Ellipse_11.png"
+import Ellipse_13 from "../images/Ellipse_13.png"
+
+import Ellipse_7_bd from "../images/Ellipse_7.png"
+
+import Ellipse_6_ei from "../images/Ellipse_6_ei.png"
+
+
+
 export default function dshbrd() {
 
 
@@ -31,7 +50,7 @@ return (
 		<rect id="Rectangle_49" rx="20" ry="20" x="0" y="0" width="930" height="190">
 		</rect>
 	</svg>
-	<img id="Full_transparent" src="Full_transparent.png" srcset="Full_transparent.png 1x, Full_transparent@2x.png 2x"/>
+	<img id="Full_transparent" src={Full_transparent}/>
 		
 	<svg class="Line_5" viewBox="0 0 1920 2">
 		<path id="Line_5" d="M 0 0 L 1920 0">
@@ -88,13 +107,13 @@ return (
 	</div>
 	<div id="Group_115">
 		<div id="Group_114">
-			<img id="Rectangle_54" src="Rectangle_54.png" srcset="Rectangle_54.png 1x, Rectangle_54@2x.png 2x"/>
+			<img id="Rectangle_54" src={Rectangle_54}/>
 				
-			<img id="Rectangle_55" src="Rectangle_55.png" srcset="Rectangle_55.png 1x, Rectangle_55@2x.png 2x"/>
+			<img id="Rectangle_55" src={Rectangle_55}/>
 				
-			<img id="Rectangle_56" src="Rectangle_56.png" srcset="Rectangle_56.png 1x, Rectangle_56@2x.png 2x"/>
+			<img id="Rectangle_56" src={Rectangle_56}/>
 				
-			<img id="Rectangle_57" src="Rectangle_57.png" srcset="Rectangle_57.png 1x, Rectangle_57@2x.png 2x"/>
+			<img id="Rectangle_57" src={Rectangle_57}/>
 				
 		</div>
 	</div>
@@ -102,10 +121,10 @@ return (
 		<div id="Sara_Silva">
 			<span>Sara Silva</span>
 		</div>
-		<img id="dEllipse_7" src="Ellipse_7.png" srcset="Ellipse_7.png 1x, Ellipse_7@2x.png 2x"/>
+		<img id="deEllipse_7" src={Ellipse_7} />
 			
 	</div>
-	<img id="Ellipse_7_bd" src="Ellipse_7_bd.png" srcset="Ellipse_7_bd.png 1x, Ellipse_7_bd@2x.png 2x"/>
+	<img id="Ellipse_7_bd" src={Ellipse_7_bd} />
 		
 	<div id="Group_144">
 	<Link to=""><svg class="ic_panorama_24px" viewBox="1 4 32.083 23.333">
@@ -134,7 +153,7 @@ return (
 		<rect id="Rectangle_50" rx="20" ry="20" x="0" y="0" width="930" height="655">
 		</rect>
 	</svg>
-	<img id="Ellipse_11" src="Ellipse_11.png" srcset="Ellipse_11.png 1x, Ellipse_11@2x.png 2x"/>
+	<img id="Ellipse_11" src={Ellipse_11} />
 		
 	<div id="Lara">
 		<span>Lara</span>
@@ -349,11 +368,11 @@ return (
 				</path>
 			</svg>
 		</div>
-		<img id="dEllipse_6" src="Ellipse_6.png" srcset="Ellipse_6.png 1x, Ellipse_6@2x.png 2x"/>
+		<img id="deEllipse_6" src="Ellipse_6.png" srcset="Ellipse_6.png 1x, Ellipse_6@2x.png 2x"/>
 			
 		<img id="Ellipse_7_di" src="Ellipse_7_di.png" srcset="Ellipse_7_di.png 1x, Ellipse_7_di@2x.png 2x"/>
 			
-		<img id="dEllipse_8" src="Ellipse_8.png" srcset="Ellipse_8.png 1x, Ellipse_8@2x.png 2x"/>
+		<img id="deEllipse_8" src="Ellipse_8.png" srcset="Ellipse_8.png 1x, Ellipse_8@2x.png 2x"/>
 			
 		<div id="Drawing_Tips">
 			<span>Drawing Tips</span>
@@ -436,11 +455,11 @@ return (
 	<Link to=""><span>All</span></Link>
 	</div>
 	<div id="Group_142">
-		<img id="Ellipse_7_eb" src="Ellipse_7_eb.png" srcset="Ellipse_7_eb.png 1x, Ellipse_7_eb@2x.png 2x"/>
+		<img id="Ellipse_7_eb" src={Ellipse_7_eb} />
 			
-		<img id="Ellipse_8_ec" src="Ellipse_8_ec.png" srcset="Ellipse_8_ec.png 1x, Ellipse_8_ec@2x.png 2x"/>
+		<img id="Ellipse_8_ec" src={Ellipse_8_ec} />
 			
-		<img id="Ellipse_13" src="Ellipse_13.png" srcset="Ellipse_13.png 1x, Ellipse_13@2x.png 2x"/>
+		<img id="Ellipse_13" src={Ellipse_13} />
 			
 		<div id="dAmanda">
 			<span>Amanda</span>
@@ -454,7 +473,7 @@ return (
 		<div id="dBaker">
 			<span>Baker</span>
 		</div>
-		<img id="Ellipse_6_ei" src="Ellipse_6_ei.png" srcset="Ellipse_6_ei.png 1x, Ellipse_6_ei@2x.png 2x"/>
+		<img id="Ellipse_6_ei" src={Ellipse_6_ei} />
 			
 		<svg class="Ellipse_14">
 			<ellipse id="Ellipse_14" rx="6" ry="6" cx="6" cy="6">
@@ -511,7 +530,7 @@ return (
 		</svg>
 	</div>
 	<div id="Group_121">
-		<img id="Rectangle_45" src="https://pixabay.com/get/g23ba13a60d6c72b2dac41e4e67857dde16a8a4245a5008ad535ff6b1cbd8f2f8bb4c66b82b4970981d48b912bb7cffe81ffd053492a6595a085e2bfad0df96c9_1280.jpg" srcset="Rectangle_45.png 1x, Rectangle_45@2x.png 2x"/>
+		<img id="dRectangle_45" src={Rectangle_45}/>
 			
 	</div>
 	<div id="Group_141">
@@ -576,9 +595,9 @@ return (
 			
 		<img id="Ellipse_8_fl" src="Ellipse_8_fl.png" srcset="Ellipse_8_fl.png 1x, Ellipse_8_fl@2x.png 2x"/>
 			
-		<img id="dEllipse_9" src="Ellipse_9.png" srcset="Ellipse_9.png 1x, Ellipse_9@2x.png 2x"/>
+		<img id="deEllipse_9" src="Ellipse_9.png" srcset="Ellipse_9.png 1x, Ellipse_9@2x.png 2x"/>
 			
-		<img id="dEllipse_10" src="Ellipse_10.png" srcset="Ellipse_10.png 1x, Ellipse_10@2x.png 2x"/>
+		<img id="deEllipse_10" src="Ellipse_10.png" srcset="Ellipse_10.png 1x, Ellipse_10@2x.png 2x"/>
 			
 		<div id="Ab">
 			<span>Abigail</span>
