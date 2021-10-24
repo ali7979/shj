@@ -417,7 +417,7 @@
 	top: 3px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Photos {
+#dPhotos {
 	left: 44px;
 	top: 0px;
 	position: absolute;
@@ -431,7 +431,7 @@
 	font-size: 19px;
 	color: rgba(255,255,255,1);
 }
-#Videos {
+#dVideos {
 	left: 211px;
 	top: 0px;
 	position: absolute;
@@ -445,7 +445,7 @@
 	font-size: 19px;
 	color: rgba(255,255,255,1);
 }
-#Events {
+#dEvents {
 	left: 366.667px;
 	top: 0px;
 	position: absolute;
@@ -1705,10 +1705,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#Ellipse_14 {
+#dEllipse_14 {
 	fill: rgba(4,176,94,1);
 }
-.Ellipse_14 {
+.dEllipse_14 {
 	position: absolute;
 	overflow: visible;
 	width: 12px;
@@ -2320,10 +2320,10 @@
 	top: 75px;
 	overflow: visible;
 }
-#Rectangle_3 {
+#dRectangle_3 {
 	fill: rgba(204,153,0,1);
 }
-.Rectangle_3 {
+.dRectangle_3 {
 	position: absolute;
 	overflow: visible;
 	width: 96px;
@@ -2331,7 +2331,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Become_A_Fan {
+#dBecome_A_Fan {
 	left: 12px;
 	top: 3px;
 	position: absolute;
@@ -2353,10 +2353,10 @@
 	top: 154.732px;
 	overflow: visible;
 }
-#Rectangle_3_f {
+#dRectangle_3_f {
 	fill: rgba(204,153,0,1);
 }
-.Rectangle_3_f {
+.dRectangle_3_f {
 	position: absolute;
 	overflow: visible;
 	width: 96px;
@@ -2364,7 +2364,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Become_A_Fan_f {
+#dBecome_A_Fan_f {
 	left: 12px;
 	top: 3px;
 	position: absolute;
@@ -2386,10 +2386,10 @@
 	top: 234.463px;
 	overflow: visible;
 }
-#Rectangle_3_ga {
+#dRectangle_3_ga {
 	fill: rgba(204,153,0,1);
 }
-.Rectangle_3_ga {
+.dRectangle_3_ga {
 	position: absolute;
 	overflow: visible;
 	width: 96px;
@@ -2397,7 +2397,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Become_A_Fan_ga {
+#dBecome_A_Fan_ga {
 	left: 12px;
 	top: 3px;
 	position: absolute;
@@ -2419,10 +2419,10 @@
 	top: 314.195px;
 	overflow: visible;
 }
-#Rectangle_3_gc {
+#dRectangle_3_gc {
 	fill: rgba(204,153,0,1);
 }
-.Rectangle_3_gc {
+.dRectangle_3_gc {
 	position: absolute;
 	overflow: visible;
 	width: 96px;
@@ -2430,7 +2430,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Become_A_Fan_gd {
+#dBecome_A_Fan_gd {
 	left: 12px;
 	top: 3px;
 	position: absolute;
@@ -2452,10 +2452,10 @@
 	top: 393.926px;
 	overflow: visible;
 }
-#Rectangle_3_gf {
+#dRectangle_3_gf {
 	fill: rgba(204,153,0,1);
 }
-.Rectangle_3_gf {
+.dRectangle_3_gf {
 	position: absolute;
 	overflow: visible;
 	width: 96px;
@@ -2463,7 +2463,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Become_A_Fan_gg {
+#dBecome_A_Fan_gg {
 	left: 12px;
 	top: 3px;
 	position: absolute;

@@ -12,6 +12,7 @@ import Signup from './Components/Signup';
 import sigup from './screens/signup';
 import upldsc from './screens/upldsc';
 import signin from './screens/signin';
+import profile from './screens/profile';
 
 function App() {
   return ( 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/dsh" exact component={dshbrd}/>
         <Route path="/signup" exact component={sigup}/>
         <Route path="/signin" exact component={signin}/>
+        <Route path="/profile" exact component={profile}/>
 
         <Route path="/profile/:email" exact component={ProfileScreen}/>
     </Switch>

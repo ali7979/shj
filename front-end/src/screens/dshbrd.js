@@ -131,13 +131,13 @@ return (
 			<path id="ic_panorama_24px" d="M 33.0833625793457 24.41667556762695 L 33.0833625793457 6.916666984558105 C 33.0833625793457 5.3125 31.77086067199707 3.999999523162842 30.16669082641602 3.999999523162842 L 3.916668891906738 3.999999523162842 C 2.312500953674316 3.999999523162842 0.9999998807907104 5.3125 0.9999998807907104 6.916666984558105 L 0.9999998807907104 24.41667556762695 C 0.9999998807907104 26.02084541320801 2.312500953674316 27.33334159851074 3.916668891906738 27.33334159851074 L 30.16669082641602 27.33334159851074 C 31.77086067199707 27.33334159851074 33.0833625793457 26.02084541320801 33.0833625793457 24.41667556762695 Z M 11.93750953674316 16.39583969116211 L 15.58334732055664 20.78542518615723 L 20.6875171661377 14.20833778381348 L 27.25002288818359 22.95834159851074 L 6.833337783813477 22.95834159851074 L 11.93750953674316 16.39583969116211 Z">
 			</path>
 		</svg></Link>
-		<Link to=""><div id="Photos">
+		<Link to=""><div id="dPhotos">
 			<span>Photos</span>
 		</div></Link >
-		<Link to=""><div id="Videos">
+		<Link to=""><div id="dVideos">
 			<span>Videos</span>
 		</div></Link>
-		<Link to=""><div id="Events">
+		<Link to=""><div id="dEvents">
 			<span>Events</span>
 		</div></Link>
 		<Link to=""><svg class="ic_videocam_24px" viewBox="3 6 35 23.333">
@@ -266,7 +266,7 @@ return (
 		<path id="ic_people_24px" d="M 38.23210144042969 19.89283752441406 C 42.35245513916016 19.89283752441406 45.6536979675293 16.56676864624023 45.6536979675293 12.44641971588135 C 45.6536979675293 8.326066970825195 42.35245513916016 5 38.23210144042969 5 C 34.11175155639648 5 30.78568267822266 8.326066970825195 30.78568267822266 12.44641971588135 C 30.78568267822266 16.56676864624023 34.11175155639648 19.89283752441406 38.23210144042969 19.89283752441406 Z M 18.37498092651367 19.89283752441406 C 22.49533271789551 19.89283752441406 25.79657745361328 16.56676864624023 25.79657745361328 12.44641971588135 C 25.79657745361328 8.326066970825195 22.49533271789551 5 18.37498092651367 5 C 14.25462627410889 5 10.92855930328369 8.326066970825195 10.92855930328369 12.44641971588135 C 10.92855930328369 16.56676864624023 14.25462627410889 19.89283752441406 18.37498092651367 19.89283752441406 Z M 18.37498092651367 24.85711669921875 C 12.59159469604492 24.85711669921875 0.9999998807907104 27.76122283935547 0.9999998807907104 33.54461288452148 L 0.9999998807907104 39.74996566772461 L 35.74996566772461 39.74996566772461 L 35.74996566772461 33.54461288452148 C 35.74996566772461 27.76122283935547 24.15836715698242 24.85711669921875 18.37498092651367 24.85711669921875 Z M 38.23210144042969 24.85711669921875 C 37.51228713989258 24.85711669921875 36.69317626953125 24.90676498413086 35.82442474365234 24.98122787475586 C 38.70371246337891 27.06622695922852 40.7142448425293 29.87104415893555 40.7142448425293 33.54461288452148 L 40.7142448425293 39.74996566772461 L 55.60707473754883 39.74996566772461 L 55.60707473754883 33.54461288452148 C 55.60707473754883 27.76122283935547 44.0154914855957 24.85711669921875 38.23210144042969 24.85711669921875 Z">
 		</path>
 	</svg>
-	<img id="Ellipse_7_ck" src="Ellipse_7_ck.png" srcset="Ellipse_7_ck.png 1x, Ellipse_7_ck@2x.png 2x"/>
+	<img id="Ellipse_7_ck"src={Ellipse_7}/>
 		
 	<svg class="ic_chevron_right_24px_cl" viewBox="0 0 6.677 10.813">
 		<path id="ic_chevron_right_24px_cl" d="M 1.270558476448059 0 L 0 1.270558476448059 L 4.127062320709229 5.406634330749512 L 0 9.542707443237305 L 1.270558476448059 10.81326675415039 L 6.677192687988281 5.406634330749512 L 1.270558476448059 0 Z">
@@ -475,7 +475,7 @@ return (
 		</div>
 		<img id="Ellipse_6_ei" src={Ellipse_6_ei} />
 			
-		<svg class="Ellipse_14">
+		<svg class="dEllipse_14">
 			<ellipse id="Ellipse_14" rx="6" ry="6" cx="6" cy="6">
 			</ellipse>
 		</svg>
@@ -504,7 +504,7 @@ return (
 				</div>
 			</div>
 		</div>
-		<img id="Ellipse_7_es" src="Ellipse_7_es.png" srcset="Ellipse_7_es.png 1x, Ellipse_7_es@2x.png 2x"/>
+		<img id="Ellipse_7_es" src={Ellipse_7}/>
 			
 		<svg class="ic_attachment_24px" viewBox="0 0 20 11">
 			<path id="ic_attachment_24px" d="M 0 5.5 C 0 2.460000038146973 2.460000038146973 0 5.5 0 L 16 0 C 18.20999908447266 0 20 1.789999961853027 20 4 C 20 6.210000038146973 18.20999908447266 8 16 8 L 7.5 8 C 6.119999885559082 8 5 6.880000114440918 5 5.5 C 5 4.119999885559082 6.119999885559082 3 7.5 3 L 15 3 L 15 5 L 7.409999847412109 5 C 6.859999656677246 5 6.859999656677246 6 7.409999847412109 6 L 16 6 C 17.10000038146973 6 18 5.100000381469727 18 4 C 18 2.899999618530273 17.10000038146973 2 16 2 L 5.5 2 C 3.570000171661377 2 2 3.569999694824219 2 5.5 C 2 7.430000305175781 3.570000171661377 9 5.5 9 L 15 9 L 15 11 L 5.5 11 C 2.460000038146973 11 0 8.539999961853027 0 5.5 Z">
@@ -588,16 +588,16 @@ return (
 				<span>Suggested For You</span>
 			</div>
 		</div>
-		<img id="Ellipse_6_fj" src="Ellipse_6_fj.png" srcset="Ellipse_6_fj.png 1x, Ellipse_6_fj@2x.png 2x"/>				
+		<img id="Ellipse_6_fj" src={Ellipse_7_eb}/>				
 
 			
-		<img id="Ellipse_7_fk" src="Ellipse_7_fk.png" srcset="Ellipse_7_fk.png 1x, Ellipse_7_fk@2x.png 2x"/>
+		<img id="Ellipse_7_fk" src={Ellipse_8_ec}/>
 			
-		<img id="Ellipse_8_fl" src="Ellipse_8_fl.png" srcset="Ellipse_8_fl.png 1x, Ellipse_8_fl@2x.png 2x"/>
+		<img id="Ellipse_8_fl" src={Ellipse_7_eb}/>
 			
-		<img id="deEllipse_9" src="Ellipse_9.png" srcset="Ellipse_9.png 1x, Ellipse_9@2x.png 2x"/>
+		<img id="deEllipse_9" src={Ellipse_13}/>
 			
-		<img id="deEllipse_10" src="Ellipse_10.png" srcset="Ellipse_10.png 1x, Ellipse_10@2x.png 2x"/>
+		<img id="deEllipse_10" src={Ellipse_8_ec}/>
 			
 		<div id="Ab">
 			<span>Abigail</span>
@@ -649,47 +649,47 @@ return (
 			</path>
 		</svg></Link>
 		<div id="Group_145">
-		<Link to=""><svg class="Rectangle_3">
-				<rect id="Rectangle_3" rx="11" ry="11" x="0" y="0" width="96" height="22">
+		<Link to=""><svg class="dRectangle_3">
+				<rect id="dRectangle_3" rx="11" ry="11" x="0" y="0" width="96" height="22">
 				</rect>
 			</svg></Link>
-			<div id="Become_A_Fan">
+			<div id="dBecome_A_Fan">
 				<span>Become A Fan</span>
 			</div>
 		</div>
 		<div id="Group_146">
-		<Link to="">	<svg class="Rectangle_3_f">
-				<rect id="Rectangle_3_f" rx="11" ry="11" x="0" y="0" width="96" height="22">
+		<Link to="">	<svg class="dRectangle_3_f">
+				<rect id="dRectangle_3_f" rx="11" ry="11" x="0" y="0" width="96" height="22">
 				</rect>
 			</svg></Link>
-			<div id="Become_A_Fan_f">
+			<div id="dBecome_A_Fan_f">
 				<span>Become A Fan</span>
 			</div>
 		</div>
 		<div id="Group_147">
-			<Link to=""><svg class="Rectangle_3_ga">
-				<rect id="Rectangle_3_ga" rx="11" ry="11" x="0" y="0" width="96" height="22">
+			<Link to=""><svg class="dRectangle_3_ga">
+				<rect id="dRectangle_3_ga" rx="11" ry="11" x="0" y="0" width="96" height="22">
 				</rect>
 			</svg></Link>
-			<div id="Become_A_Fan_ga">
+			<div id="dBecome_A_Fan_ga">
 				<span>Become A Fan</span>
 			</div>
 		</div>
 		<div id="Group_148">
-			<Link to=""><svg class="Rectangle_3_gc">
-				<rect id="Rectangle_3_gc" rx="11" ry="11" x="0" y="0" width="96" height="22">
+			<Link to=""><svg class="dRectangle_3_gc">
+				<rect id="dRectangle_3_gc" rx="11" ry="11" x="0" y="0" width="96" height="22">
 				</rect>
 			</svg></Link>
-			<div id="Become_A_Fan_gd">
+			<div id="dBecome_A_Fan_gd">
 				<span>Become A Fan</span>
 			</div>
 		</div>
 		<div id="Group_149">
-			<Link to=""><svg class="Rectangle_3_gf">
-				<rect id="Rectangle_3_gf" rx="11" ry="11" x="0" y="0" width="96" height="22">
+			<Link to=""><svg class="dRectangle_3_gf">
+				<rect id="dRectangle_3_gf" rx="11" ry="11" x="0" y="0" width="96" height="22">
 				</rect>
 			</svg></Link>
-			<div id="Become_A_Fan_gg">
+			<div id="dBecome_A_Fan_gg">
 				<span>Become A Fan</span>
 			</div>
 		</div>
@@ -703,21 +703,21 @@ return (
 		<span>20.2k</span><span style={{fontStyle:"normal",fontWeight:"normal",fontSize:"16px"}}>  Follower</span><br/><span style={{fontSize:"16px"}}>Active now on your profile</span>
 	</div>
 	<div id="Group_157">
-		<img id="Ellipse_6_gl" src="Ellipse_6_gl.png" srcset="Ellipse_6_gl.png 1x, Ellipse_6_gl@2x.png 2x"/>
+		<img id="Ellipse_6_gl" src={Ellipse_7_eb}/>
 			
-		<img id="Ellipse_7_gm" src="Ellipse_7_gm.png" srcset="Ellipse_7_gm.png 1x, Ellipse_7_gm@2x.png 2x"/>
+		<img id="Ellipse_7_gm" src={Ellipse_8_ec}/>
 			
-		<img id="Ellipse_6_gn" src="Ellipse_6_gn.png" srcset="Ellipse_6_gn.png 1x, Ellipse_6_gn@2x.png 2x"/>
+		<img id="Ellipse_6_gn" src={Ellipse_7_eb}/>
 			
-		<img id="Ellipse_7_go" src="Ellipse_7_go.png" srcset="Ellipse_7_go.png 1x, Ellipse_7_go@2x.png 2x"/>
+		<img id="Ellipse_7_go" src={Ellipse_13}/>
 			
-		<img id="Ellipse_6_gp" src="Ellipse_6_gp.png" srcset="Ellipse_6_gp.png 1x, Ellipse_6_gp@2x.png 2x"/>
+		<img id="Ellipse_6_gp" src={Ellipse_8_ec}/>
 			
-		<img id="Ellipse_7_gq" src="Ellipse_7_gq.png" srcset="Ellipse_7_gq.png 1x, Ellipse_7_gq@2x.png 2x"/>
+		<img id="Ellipse_7_gq"src={Ellipse_13}/>
 			
-		<img id="Ellipse_6_gr" src="Ellipse_6_gr.png" srcset="Ellipse_6_gr.png 1x, Ellipse_6_gr@2x.png 2x"/>
+		<img id="Ellipse_6_gr" src={Ellipse_7_eb}/>
 			
-		<img id="Ellipse_7_gs" src="Ellipse_7_gs.png" srcset="Ellipse_7_gs.png 1x, Ellipse_7_gs@2x.png 2x"/>
+		<img id="Ellipse_7_gs" src={Ellipse_8_ec}/>
 			
 	</div>
 	<div id="Group_158">

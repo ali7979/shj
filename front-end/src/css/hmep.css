@@ -113,7 +113,7 @@ html{
 	top: 26px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Group_19 {
+#rGroup_19 {
 	position: absolute;
 	width: 700px;
 	height: 68px;
@@ -121,10 +121,11 @@ html{
 	top: 41px;
 	overflow: visible;
 }
-#Rectangle_2 {
+#rRectangle_2 {
 	fill: rgba(58,58,58,1);
+	
 }
-.Rectangle_2 {
+.rRectangle_2 {
 	position: absolute;
 	overflow: visible;
 	width: 700px;
@@ -226,10 +227,10 @@ html{
 	top: 257.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#ic_chevron_right_24px {
+#ric_chevron_right_24px {
 	fill: rgba(112,112,112,1);
 }
-.ic_chevron_right_24px {
+.ric_chevron_right_24px {
 	overflow: visible;
 	position: absolute;
 	width: 13.69px;
@@ -307,7 +308,7 @@ html{
 	background-color: rgba(42,42,42,1);
 	color: grey;
 }
-#Ellipse_4 {
+#hEllipse_4 {
 	position: absolute;
 	width: 60px;
 	height: 60px;
@@ -1709,7 +1710,7 @@ html{
 	top: 7.814px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Song__Lorem_Ipsum_-_Lorem_Ipsu {
+#hssss{
 	left: 675px;
 	top: 350.659px;
 	position: absolute;
@@ -1985,7 +1986,7 @@ html{
 	top: 25.557px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Group_106 {
+#rGroup_106 {
 	position: absolute;
 	width: 62.538px;
 	height: 35px;
@@ -1993,10 +1994,10 @@ html{
 	top: 56.25px;
 	overflow: visible;
 }
-#Path_23 {
+#rPath_23 {
 	fill: rgba(255,255,255,1);
 }
-.Path_23 {
+.rPath_23 {
 	overflow: visible;
 	position: absolute;
 	width: 62.538px;
@@ -2013,7 +2014,7 @@ html{
 	top: 6.745px;
 	overflow: visible;
 }
-#Group_103 {
+#dGroup_103 {
 	position: absolute;
 	width: 32.028px;
 	height: 11.598px;
@@ -2021,7 +2022,7 @@ html{
 	top: 0px;
 	overflow: visible;
 }
-#Group_102 {
+#dGroup_102 {
 	mix-blend-mode: normal;
 	position: absolute;
 	width: 32.028px;
@@ -2054,10 +2055,10 @@ html{
 	top: 0px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Path_26 {
+#dPath_26 {
 	fill: rgba(255,255,255,1);
 }
-.Path_26 {
+.dPath_26 {
 	overflow: visible;
 	position: absolute;
 	width: 10.554px;

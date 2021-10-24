@@ -8,6 +8,11 @@ import Ellipse_7 from "../images/Ellipse_7.png"
 import Ellipse_8 from "../images/Ellipse_8.png"
 import Ellipse_9 from "../images/Ellipse_9.png"
 import Ellipse_10 from "../images/Ellipse_10.png"
+import hmimg1 from '../images/Ellipse_6_ch.png'
+import hmimg2 from '../images/Ellipse_7@2x.png'
+import hmimg3 from '../images/Ellipse_9_cp@2x.png'
+import hmimg4 from '../images/Ellipse_6_cm@2x.png'
+
 
 
 
@@ -55,13 +60,13 @@ export default function hmepg() {
 			</path>
 		</svg>
 	</div>
-	<div id="Group_19">
-		<svg class="Rectangle_2">
-			<rect id="Rectangle_2" rx="34" ry="34" x="0" y="0" width="700" height="68">
+	<div id="rGroup_19">
+		<svg class="rRectangle_2">
+			<rect id="rRectangle_2" rx="34" ry="34" x="0" y="0" width="700" height="68">
 			</rect>
 		</svg>
-		<div id="dSearch_All">
-				<input id="dSearch_All" placeholder="Search All"></input>
+		<div >
+				<input id="Search_All" placeholder="Search All"></input>
 			</div>
 			<div id="All">
 				<Link id="Al">All</Link>
@@ -84,7 +89,7 @@ export default function hmepg() {
 		<path id="Line_7" d="M 0 739 L 0 0">
 		</path>
 	</svg>
-	<svg class="ic_chevron_right_24px" viewBox="0 0 13.69 22.17">
+	<svg class="ric_chevron_right_24px" viewBox="0 0 13.69 22.17">
 		<path id="ic_chevron_right_24px" d="M 2.604967594146729 0 L 0 2.604967594146729 L 8.461526870727539 11.08497333526611 L 0 19.56497573852539 L 2.604967594146729 22.16994094848633 L 13.68994140625 11.08497333526611 L 2.604967594146729 0 Z">
 		</path>
 	</svg>
@@ -104,7 +109,7 @@ export default function hmepg() {
 		<div id="Write_your_comment">
 			<input className="ct" placeholder="Write your comment..."/>
 		</div>
-		<img id="Ellipse_4" src={Ellipse_4} />
+		<img id="hEllipse_4" src={Ellipse_4} />
 			
 	</div>
 	<div id="Group_38">
@@ -226,35 +231,35 @@ export default function hmepg() {
 			</svg>
 		</div>
 		<div id="Group_46">
-			<img id="dEllipse_6" src={Ellipse_6.png}/>
+			<img id="dEllipse_6" src={hmimg1}/>
 				
-			<img id="dEllipse_7" src={Ellipse_7.png}/>
+			<img id="dEllipse_7" src={hmimg2}/>
 				
-			<img id="dEllipse_8" src={Ellipse_8.png}/>
+			<img id="dEllipse_8" src={hmimg3}/>
 				
-			<img id="dEllipse_9" src={Ellipse_9.png}/>
+			<img id="dEllipse_9" src={hmimg4}/>
 				
-			<img id="dEllipse_10" src={Ellipse_10.png}/>
+			<img id="dEllipse_10" src={hmimg3}/>
 				
-			<img id="Ellipse_6_ch" src={Ellipse_6_ch} srcset="Ellipse_6_ch.png 1x, Ellipse_6_ch@2x.png 2x"/>
+			<img id="Ellipse_6_ch" src={hmimg2} />
 				
-			<img id="Ellipse_7_ci" src="Ellipse_7_ci.png" srcset="Ellipse_7_ci.png 1x, Ellipse_7_ci@2x.png 2x"/>
+			<img id="Ellipse_7_ci" src={hmimg1} />
 				
-			<img id="Ellipse_8_cj" src="Ellipse_8_cj.png" srcset="Ellipse_8_cj.png 1x, Ellipse_8_cj@2x.png 2x"/>
+			<img id="Ellipse_8_cj" src={hmimg4} />
 				
-			<img id="Ellipse_9_ck" src="Ellipse_9_ck.png" srcset="Ellipse_9_ck.png 1x, Ellipse_9_ck@2x.png 2x"/>
+			<img id="Ellipse_9_ck" src={hmimg1} />
 				
-			<img id="Ellipse_10_cl" src="Ellipse_10_cl.png" srcset="Ellipse_10_cl.png 1x, Ellipse_10_cl@2x.png 2x"/>
+			<img id="Ellipse_10_cl" src={hmimg3} />
 				
-			<img id="Ellipse_6_cm" src="Ellipse_6_cm.png" srcset="Ellipse_6_cm.png 1x, Ellipse_6_cm@2x.png 2x"/>
+			<img id="Ellipse_6_cm" src={hmimg4} />
 				
-			<img id="Ellipse_7_cn" src="Ellipse_7_cn.png" srcset="Ellipse_7_cn.png 1x, Ellipse_7_cn@2x.png 2x"/>
+			<img id="Ellipse_7_cn" src={hmimg2} />
 				
-			<img id="Ellipse_8_co" src="Ellipse_8_co.png" srcset="Ellipse_8_co.png 1x, Ellipse_8_co@2x.png 2x"/>
+			<img id="Ellipse_8_co" src={hmimg1} />
 				
-			<img id="Ellipse_9_cp" src="Ellipse_9_cp.png" srcset="Ellipse_9_cp.png 1x, Ellipse_9_cp@2x.png 2x"/>
+			<img id="Ellipse_9_cp" src={hmimg3} />
 				
-			<img id="Ellipse_10_cq" src="Ellipse_10_cq.png" srcset="Ellipse_10_cq.png 1x, Ellipse_10_cq@2x.png 2x"/>
+			<img id="Ellipse_10_cq" src={hmimg4} />
 				
 			<div id="Abigail">
 				<span>Abigail</span>
@@ -444,7 +449,7 @@ export default function hmepg() {
 			</svg>
 		</div>
 	</div>
-	<div id="Song__Lorem_Ipsum_-_Lorem_Ipsu">
+	<div id="hssss">
 		<span>Song : Lorem Ipsum - Lorem Ipsum.</span>
 	</div>
 	<div id="Category__Movie">
@@ -487,11 +492,12 @@ export default function hmepg() {
 			</svg>
 			<div class="dropdown">
   <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-    <a href="#">Link 3</a>
+  <div class="dropdown-content" >
+    <a href="#">Science</a>
+    <a href="#">Drama</a>
+    <a href="#">Fiction</a>
+    <a href="#">Romance</a>
+	<a href="#">Mythology</a>
   </div>
 </div>
 		</div>
@@ -525,14 +531,14 @@ export default function hmepg() {
 			</path>
 		</svg>
 	</div>
-	<div id="Group_106">
-		<svg class="Path_23" viewBox="181.11 323 62.538 35">
-			<path id="Path_23" d="M 240.8188629150391 328.3391723632812 L 232.4963226318359 332.509765625 L 232.4963226318359 325.9166259765625 C 232.4963226318359 324.305908203125 230.8521575927734 323 228.8256988525391 323 L 184.7805938720703 323 C 182.7531280517578 323 181.1100006103516 324.305908203125 181.1100006103516 325.9166259765625 L 181.1100006103516 355.0833129882812 C 181.1100006103516 356.694091796875 182.7531280517578 358 184.7805938720703 358 L 228.8256988525391 358 C 230.8521575927734 358 232.4963226318359 356.694091796875 232.4963226318359 355.0833129882812 L 232.4963226318359 348.39208984375 L 240.8188629150391 352.562744140625 C 242.1178741455078 353.2136840820312 243.6483001708984 352.26953125 243.6483001708984 350.815673828125 L 243.6483001708984 330.0862426757812 C 243.6483001708984 328.63232421875 242.1178741455078 327.6881713867188 240.8188629150391 328.3391723632812 Z M 241.6874542236328 350.8038940429688 L 230.5355072021484 345.2166137695312 L 230.5355072021484 355.0833129882812 C 230.5355072021484 355.4636840820312 229.8531646728516 356.0391845703125 228.8256988525391 356.0391845703125 L 184.7805938720703 356.0391845703125 C 183.7521514892578 356.0391845703125 183.0707855224609 355.4636840820312 183.0707855224609 355.0833129882812 L 183.0707855224609 325.9166259765625 C 183.0707855224609 325.5362548828125 183.7521514892578 324.9607543945312 184.7805938720703 324.9607543945312 L 228.8256988525391 324.9607543945312 C 229.8531646728516 324.9607543945312 230.5355072021484 325.5362548828125 230.5355072021484 325.9166259765625 L 230.5355072021484 335.6852416992188 L 241.6874542236328 330.0970458984375 L 241.6874542236328 350.8038940429688 Z">
+	<div id="rGroup_106">
+		<svg class="rPath_23" viewBox="181.11 323 62.538 35">
+			<path id="rPath_23" d="M 240.8188629150391 328.3391723632812 L 232.4963226318359 332.509765625 L 232.4963226318359 325.9166259765625 C 232.4963226318359 324.305908203125 230.8521575927734 323 228.8256988525391 323 L 184.7805938720703 323 C 182.7531280517578 323 181.1100006103516 324.305908203125 181.1100006103516 325.9166259765625 L 181.1100006103516 355.0833129882812 C 181.1100006103516 356.694091796875 182.7531280517578 358 184.7805938720703 358 L 228.8256988525391 358 C 230.8521575927734 358 232.4963226318359 356.694091796875 232.4963226318359 355.0833129882812 L 232.4963226318359 348.39208984375 L 240.8188629150391 352.562744140625 C 242.1178741455078 353.2136840820312 243.6483001708984 352.26953125 243.6483001708984 350.815673828125 L 243.6483001708984 330.0862426757812 C 243.6483001708984 328.63232421875 242.1178741455078 327.6881713867188 240.8188629150391 328.3391723632812 Z M 241.6874542236328 350.8038940429688 L 230.5355072021484 345.2166137695312 L 230.5355072021484 355.0833129882812 C 230.5355072021484 355.4636840820312 229.8531646728516 356.0391845703125 228.8256988525391 356.0391845703125 L 184.7805938720703 356.0391845703125 C 183.7521514892578 356.0391845703125 183.0707855224609 355.4636840820312 183.0707855224609 355.0833129882812 L 183.0707855224609 325.9166259765625 C 183.0707855224609 325.5362548828125 183.7521514892578 324.9607543945312 184.7805938720703 324.9607543945312 L 228.8256988525391 324.9607543945312 C 229.8531646728516 324.9607543945312 230.5355072021484 325.5362548828125 230.5355072021484 325.9166259765625 L 230.5355072021484 335.6852416992188 L 241.6874542236328 330.0970458984375 L 241.6874542236328 350.8038940429688 Z">
 			</path>
 		</svg>
-		<div id="Song__Lorem_Ipsum_-_Lorem_Ipsu_e">
-			<div id="Group_103">
-				<div id="Group_102">
+		<div id="Song_Lorem_Ipsum-_Lorem_Ipsu_e">
+			<div id="dGroup_103">
+				<div id="dGroup_102">
 					<svg class="Path_24" viewBox="233.415 365.949 7.463 11.598">
 						<path id="Path_24" d="M 235.8045196533203 375.6268615722656 L 240.8784637451172 375.6268615722656 L 240.8784637451172 377.5465087890625 L 233.4149780273438 377.5465087890625 L 233.4149780273438 365.948974609375 L 235.8045196533203 365.948974609375 L 235.8045196533203 375.6268615722656 Z">
 						</path>
@@ -541,8 +547,8 @@ export default function hmepg() {
 						<path id="Path_25" d="M 354.1825866699219 377.5465087890625 L 351.79296875 377.5465087890625 L 351.79296875 365.948974609375 L 354.1825866699219 365.948974609375 L 354.1825866699219 377.5465087890625 Z">
 						</path>
 					</svg>
-					<svg class="Path_26" viewBox="399.543 365.949 10.554 11.598">
-						<path id="Path_26" d="M 404.8080444335938 374.6709594726562 L 407.4366455078125 365.948974609375 L 410.0970458984375 365.948974609375 L 406.05859375 377.5465087890625 L 403.5653991699219 377.5465087890625 L 399.54296875 365.948974609375 L 402.1954040527344 365.948974609375 L 404.8080444335938 374.6709594726562 Z">
+					<svg class="dPath_26" viewBox="399.543 365.949 10.554 11.598">
+						<path id="dPath_26" d="M 404.8080444335938 374.6709594726562 L 407.4366455078125 365.948974609375 L 410.0970458984375 365.948974609375 L 406.05859375 377.5465087890625 L 403.5653991699219 377.5465087890625 L 399.54296875 365.948974609375 L 402.1954040527344 365.948974609375 L 404.8080444335938 374.6709594726562 Z">
 						</path>
 					</svg>
 					<svg class="Path_27" viewBox="552.974 365.949 7.774 11.598">
@@ -552,7 +558,7 @@ export default function hmepg() {
 				</div>
 			</div>
 		</div>
-		<div id="Song__Lorem_Ipsum_-_Lorem_Ipsu_fe">
+		<div id="Song_Lorem_Ipsum-_Lorem_Ipsu_fe">
 			<div id="Group_105">
 				<div id="Group_104">
 					<svg class="Path_28" viewBox="272.876 570.839 4.565 6.113">
